@@ -44,8 +44,8 @@ O objetivo é construir uma fundação sólida e moderna nos conceitos essenciai
 - [x] Introdução às Estruturas de Dados (`011`)
 - [x] Arrays: criação, índices e métodos essenciais (`push`, `pop`, `shift`, `unshift`) (`012`)
 - [x] Objetos: propriedades e valores literais (`013`)
-- [ ] Operadores Aritméticos e de Atribuição
-- [ ] Concatenação de Strings & Template Literals
+- [x] Operadores de Atribuição (`014`)
+- [x] Concatenação de Strings (`concatenacao_strngs`)
 - [ ] Operadores de Comparação e Operadores Lógicos
 - [ ] Controle de Fluxo: `if`, `else if`, `else`, operador ternário e `switch`
 - [ ] Laços de Repetição: `for`, `while`, `do...while`, `for...in`, `for...of`
@@ -94,7 +94,8 @@ Os exercícios resolvidos ao longo do curso são categorizados por tema:
 - [x] **Variáveis e Constantes:** `ex/variaveis_e_const/`
 - [x] **Tipos de Dados:** `ex/data_types/`
 - [x] **Arrays:** `ex/arrays/`
-- [ ] **Operadores e Controle de Fluxo:** *(em breve)*
+- [x] **Objetos:** `ex/objeto/`
+- [x] **Operadores (Parte 1):** `ex/operadores_parte1/`
 - [ ] **Loops e Iterações:** *(em breve)*
 - [ ] **Funções e Classes:** *(em breve)*
 - [ ] **Desafios Interativos no Navegador (DOM/BOM):** *(em breve)*
@@ -105,25 +106,28 @@ Os exercícios resolvidos ao longo do curso são categorizados por tema:
 
 ```bash
 JavaScript-Fundamentals/
-├── 001_comentarios/
-├── 002_statements/
-├── 003_variaveis_e_constantes_p1/
-├── 004_variaveis_e_constantes_p2/
-├── 005_strict_mode/
-├── 006_data_type_string/
-├── 007_data_type_boolean/
-├── 008_data_type_object/
-├── 009_typeof/
-├── 010_type_casting/
-├── 011_estrutura_de_dados/
-├── 012_arrays_introuducao/
-├── 013_objects_introducao/
+├── aulas/
+│   ├── 001_comentarios/
+│   ├── 002_statements/
+│   ├── 003_variaveis_e_constantes_p1/
+│   ├── 004_variaveis_e_constantes_p2/
+│   ├── 005_strict_mode/
+│   ├── 006_data_type_string/
+│   ├── 007_data_type_boolean/
+│   ├── 008_data_type_object/
+│   ├── 009_typeof/
+│   ├── 010_type_casting/
+│   ├── 011_estrutura_de_dados/
+│   ├── 012_arrays_introuducao/
+│   ├── 013_objects_introducao/
+│   ├── 014_operadores_atribuicao/
+│   └── concatenacao_strngs/
 ├── ex/
 │   ├── arrays/
 │   ├── data_types/
+│   ├── objeto/
+│   ├── operadores_parte1/
 │   └── variaveis_e_const/
-├── .vscode/
-│   └── settings.json
 ├── jsconfig.json
 ├── README.md
 └── .gitignore
