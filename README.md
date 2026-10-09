@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Repositório de estudos e resolução de exercícios práticos em JavaScript moderno (ES6+).</strong>
+  <strong>Repositório de estudos, notas de aula e resolução de exercícios práticos em JavaScript moderno (ES6+).</strong>
 </p>
 
 <p align="center">
@@ -19,112 +19,145 @@
 
 ## 📌 Sobre o Repositório
 
-Este repositório foi criado para registrar todo o progresso, anotações de aula, exemplos e resolução dos **mais de 100 exercícios práticos** do curso **[JavaScript Fundamental com mais de 100 exercícios](https://www.udemy.com/course/javascript-fundamental-com-mais-de-100-exercicios/)**, ministrado pelo instrutor **João Ribeiro** na plataforma **Udemy**.
+Este repositório registra o progresso, códigos de aula e a resolução dos **mais de 100 exercícios práticos** do curso **[JavaScript Fundamental com mais de 100 exercícios](https://www.udemy.com/course/javascript-fundamental-com-mais-de-100-exercicios/)**, ministrado pelo instrutor **João Ribeiro** na **Udemy**.
 
-O objetivo principal desta jornada é consolidar uma base sólida e aprofundada na linguagem **JavaScript**, preparando o terreno para o ecossistema moderno de bibliotecas e frameworks (como React, Vue, Angular e Node.js).
+O objetivo é construir uma fundação sólida e moderna nos conceitos essenciais da linguagem JavaScript, servindo como base firme para o domínio de frameworks e ferramentas como React, Vue, Angular e Node.js.
 
 ---
 
 ## 🎯 Conteúdo Programático & Trilha de Aprendizado
 
-- [ ] **Módulo 1: Fundamentos & Sintaxe Básica**
-  - [x] Comentários, variáveis (`let`, `const`) e boas práticas
-  - [ ] Tipos de dados primitivos (Strings, Numbers, Booleans, Null, Undefined, Symbols)
-  - [ ] Operadores aritméticos, de atribuição, lógicos e de comparação
-  - [ ] Precedência de operadores e coerção de tipos
+### Seção 01: Introdução
+- [x] Visão geral do curso e objetivos
 
-- [ ] **Módulo 2: Controle de Fluxo & Estruturas Condicionais**
-  - [ ] Estruturas `if`, `else if`, `else`
-  - [ ] Operador ternário
-  - [ ] Estrutura `switch...case`
+### Seção 02: Preparação do Ambiente de Desenvolvimento
+- [x] Instalação e configuração do Node.js e VS Code / IDE
+- [x] Execução de scripts no console e no terminal
 
-- [ ] **Módulo 3: Laços de Repetição (Loops)**
-  - [ ] `while` e `do...while`
-  - [ ] `for`, `for...in` e `for...of`
-  - [ ] Controle com `break` e `continue`
+### Seção 03: JavaScript Básico Fundamental
+- [x] Comentários e Statements (`001`, `002`)
+- [x] Variáveis e Constantes — `var`, `let`, `const` e escopos (`003`, `004`)
+- [x] Modo Estrito (`"use strict"`) e boas práticas (`005`)
+- [x] Tipos de dados primitivos: Strings e Booleans (`006`, `007`)
+- [x] Operador `typeof` (`009`)
+- [x] Conversão de Tipos (*Type Casting* implícito e explícito) (`010`)
+- [x] Introdução às Estruturas de Dados (`011`)
+- [x] Arrays: criação, índices e métodos essenciais (`push`, `pop`, `shift`, `unshift`) (`012`)
+- [x] Objetos: propriedades e valores literais (`013`)
+- [ ] Operadores Aritméticos e de Atribuição
+- [ ] Concatenação de Strings & Template Literals
+- [ ] Operadores de Comparação e Operadores Lógicos
+- [ ] Controle de Fluxo: `if`, `else if`, `else`, operador ternário e `switch`
+- [ ] Laços de Repetição: `for`, `while`, `do...while`, `for...in`, `for...of`
+- [ ] Operador de Coalescência Nula (*Nullish Coalescing* `??`)
 
-- [ ] **Módulo 4: Funções & Escopo**
-  - [ ] Declaração e expressão de funções
-  - [ ] Parâmetros padrão e operador Rest
-  - [ ] *Arrow Functions*
-  - [ ] Escopo global, de bloco e de função (*closures*)
-  - [ ] Funções de callback
+### Seção 04: Funções em JavaScript
+- [ ] Declaração e expressão de funções
+- [ ] Parâmetros padrão e operador Rest
+- [ ] *Arrow Functions*
+- [ ] Escopos, Closures e funções de Callback
 
-- [ ] **Módulo 5: Arrays & Métodos de Iteração**
-  - [ ] Criação e manipulação de arrays
-  - [ ] Métodos essenciais (`push`, `pop`, `shift`, `unshift`, `splice`, `slice`)
-  - [ ] Iteração funcional (`forEach`, `map`, `filter`, `reduce`, `find`, `some`, `every`)
+### Seção 05: Classes em JavaScript (POO)
+- [ ] Classes e Métodos Construtores
+- [ ] Getters, Setters e Encapsulamento
+- [ ] Métodos e propriedades estáticas
+- [ ] Herança com `extends` e `super`
 
-- [ ] **Módulo 6: Objetos & Programação Orientada a Objetos (POO)**
-  - [ ] Objetos literais, propriedades e métodos
-  - [ ] Introdução a Classes e construtores
-  - [ ] Encapsulamento, `getters` e `setters`
-  - [ ] Métodos estáticos e herança (`extends`, `super`)
+### Seção 06: JavaScript para a Web - DOM
+- [ ] Seletores do DOM (`querySelector`, `querySelectorAll`)
+- [ ] Manipulação de elementos, classes e atributos
+- [ ] Eventos e `addEventListener`
+- [ ] Criação e remoção dinâmica de nós
 
-- [ ] **Módulo 7: Manipulação do DOM & Eventos (Navegador)**
-  - [ ] Seleção de elementos (`querySelector`, `querySelectorAll`)
-  - [ ] Manipulação de classes, estilos e atributos
-  - [ ] Escuta de eventos (`addEventListener`)
-  - [ ] Criação e inserção de elementos dinâmicos
+### Seção 07: JavaScript para a Web - BOM
+- [ ] Objetos `window`, `navigator`, `location` e `history`
+- [ ] Temporizadores (`setTimeout`, `setInterval`)
 
-- [ ] **Módulo 8: Assincronismo & APIs**
-  - [ ] Formato JSON (`JSON.parse` e `JSON.stringify`)
-  - [ ] Introdução a Promises
-  - [ ] `async` / `await`
-  - [ ] Consumo de APIs com `Fetch API`
+### Seção 08: Promises e Async / Await
+- [ ] JavaScript assíncrono e Event Loop
+- [ ] Promises (resolve, reject, encadeamento com `.then` / `.catch`)
+- [ ] Sintaxe `async` / `await`
 
-- [ ] **Módulo 9: Bateria de Mais de 100 Exercícios Práticos**
-  - [ ] Exercícios de lógica no terminal
-  - [ ] Exercícios interativos para o browser
+### Seção 09: JSON e Fetch API
+- [ ] Serialização e Desserialização com `JSON.stringify` e `JSON.parse`
+- [ ] Requisições HTTP e consumo de APIs externas com `fetch()`
+
+### Seção 10: Módulos em JavaScript
+- [ ] Módulos ES6 (`import` e `export`)
+
+---
+
+## 🏋️ Bateria de Exercícios Práticos (`ex/`)
+
+Os exercícios resolvidos ao longo do curso são categorizados por tema:
+
+- [x] **Variáveis e Constantes:** `ex/variaveis_e_const/`
+- [x] **Tipos de Dados:** `ex/data_types/`
+- [x] **Arrays:** `ex/arrays/`
+- [ ] **Operadores e Controle de Fluxo:** *(em breve)*
+- [ ] **Loops e Iterações:** *(em breve)*
+- [ ] **Funções e Classes:** *(em breve)*
+- [ ] **Desafios Interativos no Navegador (DOM/BOM):** *(em breve)*
 
 ---
 
 ## 📂 Estrutura de Pastas
 
-A estrutura das pastas é organizada de forma modular e progressiva para facilitar a consulta rápida:
-
 ```bash
 JavaScript-Fundamentals/
-├── JS-basico-fundamental/
-│   ├── 001_comentarios/
-│   │   └── script.js
-│   ├── 002_variaveis_e_constantes/
-│   │   └── script.js
-│   └── ...
+├── 001_comentarios/
+├── 002_statements/
+├── 003_variaveis_e_constantes_p1/
+├── 004_variaveis_e_constantes_p2/
+├── 005_strict_mode/
+├── 006_data_type_string/
+├── 007_data_type_boolean/
+├── 008_data_type_object/
+├── 009_typeof/
+├── 010_type_casting/
+├── 011_estrutura_de_dados/
+├── 012_arrays_introuducao/
+├── 013_objects_introducao/
+├── ex/
+│   ├── arrays/
+│   ├── data_types/
+│   └── variaveis_e_const/
+├── .vscode/
+│   └── settings.json
+├── jsconfig.json
 ├── README.md
 └── .gitignore
 ```
 
-> Cada pasta contém os scripts e arquivos de suporte (quando aplicável, arquivos `.html` para testes no navegador) referentes ao respectivo tópico ou exercício.
+> **Nota:** Os materiais e slides originais do curso estão guardados localmente na pasta `docs/` e ignorados pelo `.gitignore` para manter o repositório público leve e focado no código autoral.
 
 ---
 
 ## 💻 Como Executar os Códigos
 
 ### 1. No Terminal (Node.js)
-Caso tenha o [Node.js](https://nodejs.org/) instalado na máquina, você pode executar qualquer arquivo de script diretamente pelo terminal:
+Execute qualquer arquivo de script diretamente pelo terminal:
 
 ```bash
-# Navegue até o diretório do exercício desejado
-cd JS-basico-fundamental/001_comentarios
+# Exemplo: executar aula de arrays
+node 012_arrays_introuducao/script.js
 
-# Execute com o Node
-node script.js
+# Exemplo: executar um exercício
+node ex/arrays/001.js
 ```
 
 ### 2. No Navegador (Browser)
-Para códigos que utilizam recursos do navegador (DOM, `alert`, etc.):
-- Abra o arquivo `.html` correspondente diretamente em seu navegador favorito;
-- Ou utilize a extensão **Live Server** no VS Code para recarregamento em tempo real;
-- Pressione `F12` ou `Ctrl + Shift + I` e acompanhe as saídas na aba **Console**.
+Para exemplos que utilizem recursos de DOM ou APIs do navegador:
+- Abra o arquivo `.html` correspondente no navegador (ou use a extensão **Live Server**);
+- Pressione `F12` (ou `Ctrl + Shift + I`) e veja a saída no **Console**.
 
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
 
 - **Linguagem:** [JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- **Runtime:** [Node.js](https://nodejs.org/)
-- **Editor:** [Visual Studio Code](https://code.visualstudio.com/) / Antigravity IDE
+- **Ambiente de Execução:** [Node.js](https://nodejs.org/)
+- **Editor:** VS Code / Antigravity IDE (com IntelliSense via `jsconfig.json`)
 - **Plataforma:** [Udemy](https://www.udemy.com/)
 
 ---
