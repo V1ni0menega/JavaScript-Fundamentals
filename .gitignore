@@ -11,11 +11,6 @@ desktop.ini
 
 # Editores e IDEs
 .vscode/
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 .idea/
 *.sublime-project
 *.sublime-workspace
