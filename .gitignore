@@ -10,6 +10,7 @@ Thumbs.db
 desktop.ini
 
 # Editores e IDEs
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -23,3 +24,5 @@ desktop.ini
 *.log
 *.tmp
 *.bak
+
+docs/
