@@ -45,8 +45,9 @@ O objetivo é construir uma fundação sólida e moderna nos conceitos essenciai
 - [x] Arrays: criação, índices e métodos essenciais (`push`, `pop`, `shift`, `unshift`) (`012`)
 - [x] Objetos: propriedades e valores literais (`013`)
 - [x] Operadores de Atribuição (`014`)
-- [x] Concatenação de Strings (`concatenacao_strngs`)
-- [ ] Operadores de Comparação e Operadores Lógicos
+- [x] Concatenação e Interpolação de Strings (`015`)
+- [x] Operadores Lógicos (`016`)
+- [ ] Operadores de Comparação
 - [ ] Controle de Fluxo: `if`, `else if`, `else`, operador ternário e `switch`
 - [ ] Laços de Repetição: `for`, `while`, `do...while`, `for...in`, `for...of`
 - [ ] Operador de Coalescência Nula (*Nullish Coalescing* `??`)
@@ -96,6 +97,7 @@ Os exercícios resolvidos ao longo do curso são categorizados por tema:
 - [x] **Arrays:** `ex/arrays/`
 - [x] **Objetos:** `ex/objeto/`
 - [x] **Operadores (Parte 1):** `ex/operadores_parte1/`
+- [x] **Operadores (Parte 2):** `ex/operadores_parte2/`
 - [ ] **Loops e Iterações:** *(em breve)*
 - [ ] **Funções e Classes:** *(em breve)*
 - [ ] **Desafios Interativos no Navegador (DOM/BOM):** *(em breve)*
@@ -121,12 +123,14 @@ JavaScript-Fundamentals/
 │   ├── 012_arrays_introuducao/
 │   ├── 013_objects_introducao/
 │   ├── 014_operadores_atribuicao/
-│   └── concatenacao_strngs/
+│   ├── 015_concatenacao_interpolação_strings/
+│   └── 016_operadores_lógicos/
 ├── ex/
 │   ├── arrays/
 │   ├── data_types/
 │   ├── objeto/
 │   ├── operadores_parte1/
+│   ├── operadores_parte2/
 │   └── variaveis_e_const/
 ├── jsconfig.json
 ├── README.md
