@@ -47,16 +47,20 @@ O objetivo é construir uma fundação sólida e moderna nos conceitos essenciai
 - [x] Operadores de Atribuição (`014`)
 - [x] Concatenação e Interpolação de Strings (`015`)
 - [x] Operadores Lógicos (`016`)
+- [x] Operador Ternário (`017`)
+- [x] Laço de Repetição `for...of` (`018`)
+- [x] Operador de Coalescência Nula (*Nullish Coalescing* `??`) (`019`)
 - [ ] Operadores de Comparação
-- [ ] Controle de Fluxo: `if`, `else if`, `else`, operador ternário e `switch`
-- [ ] Laços de Repetição: `for`, `while`, `do...while`, `for...in`, `for...of`
-- [ ] Operador de Coalescência Nula (*Nullish Coalescing* `??`)
+- [x] Controle de Fluxo: `if`, `else if`, `else`, operador ternário
+- [ ] Laços de Repetição: `for`, `while`, `do...while`, `for...in`
 
 ### Seção 04: Funções em JavaScript
-- [ ] Declaração e expressão de funções
+- [x] Declaração tradicional e Funções Anônimas com retorno (`020`)
+- [x] Escopos de Variáveis (global vs local / precedência) (`021`)
+- [x] Funções Aninhadas e Closures (`022`)
 - [ ] Parâmetros padrão e operador Rest
 - [ ] *Arrow Functions*
-- [ ] Escopos, Closures e funções de Callback
+- [ ] Funções de Callback
 
 ### Seção 05: Classes em JavaScript (POO)
 - [ ] Classes e Métodos Construtores
@@ -98,6 +102,7 @@ Os exercícios resolvidos ao longo do curso são categorizados por tema:
 - [x] **Objetos:** `ex/objeto/`
 - [x] **Operadores (Parte 1):** `ex/operadores_parte1/`
 - [x] **Operadores (Parte 2):** `ex/operadores_parte2/`
+- [x] **Controle de Fluxo & Condicionais (Parte 1):** `ex/controle_de_fluxo_condicionais_parte_1/`
 - [ ] **Loops e Iterações:** *(em breve)*
 - [ ] **Funções e Classes:** *(em breve)*
 - [ ] **Desafios Interativos no Navegador (DOM/BOM):** *(em breve)*
@@ -124,9 +129,16 @@ JavaScript-Fundamentals/
 │   ├── 013_objects_introducao/
 │   ├── 014_operadores_atribuicao/
 │   ├── 015_concatenacao_interpolação_strings/
-│   └── 016_operadores_lógicos/
+│   ├── 016_operadores_lógicos/
+│   ├── 017_operador_ternario/
+│   ├── 018_for_of/
+│   ├── 019_nulish_coalescing_operator/
+│   ├── 020_funcao_anonima_e_com_retorno/
+│   ├── 021_escopos_das_variaveis/
+│   └── 022_funcoes_aninhadas_e_closures/
 ├── ex/
 │   ├── arrays/
+│   ├── controle_de_fluxo_condicionais_parte_1/
 │   ├── data_types/
 │   ├── objeto/
 │   ├── operadores_parte1/
